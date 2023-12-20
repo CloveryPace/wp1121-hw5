@@ -2,9 +2,8 @@
 
 import { useState } from "react";
 
-import { revalidatePath } from "next/cache";
 import Link from "next/link";
-import { redirect, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 import { createProject } from "../../actions";
 import { Loader2 } from "lucide-react";
